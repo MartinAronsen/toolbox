@@ -93,5 +93,6 @@ class _proxy
         $helpers[Session::class][] = \IPS\toolbox\Proxy\Helpers\Session::class;
         $helpers[\IPS\Member::class][] = Member::class;
         $helpers[\IPS\Log::class][] = \IPS\toolbox\Proxy\Helpers\Log::class;
+        $helpers[\IPS\nexus\Customer::class][] = \IPS\toolbox\Proxy\Helpers\Customer::class;
     }
 }
